@@ -1,0 +1,39 @@
+--- TO DO ---
+ 
+- 3x Fan Controller with 1 LED each:
+	-> 1x Extruder 
+	-> 1x Hotend 
+	-> 1x Filament
+ 
+- 3x Thermistor-Input:
+	-> 1x Heatbed 
+	-> 1x Extruder 
+	-> 1x Housing
+
+- Mini-Beeper 1x
+
+- Heatbed Controller
+	-> 2 channels: Extruder, Heatbed
+	-> High Current (25A) MOSFETs 
+	-> 1 LED each
+
+- LEDs
+	-> 1x Power indicator
+	-> 1x Working indicator
+	-> 1 per Stepper Driver?
+
+- Connectors:
+	-> USB
+	-> LCD (16x2 Characters)
+	-> JTAG
+	-> ISP
+
+
+
+--- NOTES ---
+
+- PortD PD6 and PD7 are USB D+ and D- lines.
+
+- External oscillator? 
+	-> Nope, not necessary
+

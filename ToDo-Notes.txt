@@ -9,6 +9,8 @@
 	-> 1x Heatbed 
 	-> 1x Extruder 
 	-> 1x Housing
+---> 3.3V operation: 4.7k resistors in series?
+
 
 - Mini-Beeper 1x
 

@@ -34,6 +34,8 @@
 
 --- NOTES ---
 
+- A/D-Converter at 10 SPS: Source Impedance should be less than 1e9 Ohm
+
 - PortD PD6 and PD7 are USB D+ and D- lines.
 
 - External oscillator? 

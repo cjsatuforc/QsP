@@ -30,7 +30,8 @@
 	-> JTAG
 	-> ISP
 
-
+- FANs missing on parts list
+- LCD Connector: Define pin layout
 
 --- NOTES ---
 

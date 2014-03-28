@@ -12,8 +12,6 @@
 ---> 3.3V operation: 4.7k resistors in series?
 
 
-- Mini-Beeper 1x
-
 - Heatbed Controller
 	-> 2 channels: Extruder, Heatbed
 	-> High Current (25A) MOSFETs 
@@ -30,8 +28,14 @@
 	-> JTAG
 	-> ISP
 
-- FANs missing on parts list
 - LCD Connector: Define pin layout
+- USB Interface: Shield capacitively coupled to GND?
+
+--- Missing on parts list ---
+- Fans
+- Connectors
+- Transistor BCV 27 SMD
+- Beeper/Buzzer
 
 --- NOTES ---
 

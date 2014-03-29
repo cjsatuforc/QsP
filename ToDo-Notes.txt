@@ -30,12 +30,12 @@
 
 - LCD Connector: Define pin layout
 - USB Interface: Shield capacitively coupled to GND?
+- What does the "enable"-bit do on the stepper motor drivers? Maybe just hardwire them to a switch instead of <wasting> uc-pins?
 
 --- Missing on parts list ---
 - Fans
 - Connectors
 - Transistor BCV 27 SMD
-- Beeper/Buzzer
 
 --- NOTES ---
 
@@ -43,6 +43,4 @@
 
 - PortD PD6 and PD7 are USB D+ and D- lines.
 
-- External oscillator? 
-	-> Nope, not necessary
-
+- Include SD Card Reader as internal storage

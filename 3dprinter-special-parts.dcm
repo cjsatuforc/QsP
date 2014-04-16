@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP14E10
+D MCP14E10 Dual High-Speed Power MOSFET Driver with enable
+$ENDCMP
+#
+#End Doc Library

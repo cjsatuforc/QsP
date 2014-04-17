@@ -443,17 +443,17 @@ Text Label 4550 4600 2    60   ~ 0
 TWIC-SDA
 Text Label 4550 4700 2    60   ~ 0
 TWIC-SCL
-Text Label 4200 3750 0    60   ~ 0
+Text Label 1600 6400 2    60   ~ 0
 X_MIN
-Text Label 4200 3850 0    60   ~ 0
+Text Label 1600 6500 2    60   ~ 0
 X_MAX
-Text Label 4200 3950 0    60   ~ 0
+Text Label 1600 6600 2    60   ~ 0
 Y_MIN
-Text Label 4200 4050 0    60   ~ 0
+Text Label 1600 6700 2    60   ~ 0
 Y_MAX
-Text Label 4200 4150 0    60   ~ 0
+Text Label 1600 6800 2    60   ~ 0
 Z_MIN
-Text Label 4200 4250 0    60   ~ 0
+Text Label 1600 6900 2    60   ~ 0
 Z_MAX
 $Comp
 L CONN_2 P?
@@ -544,7 +544,7 @@ L R R?
 U 1 1 53332C60
 P 3100 1550
 F 0 "R?" V 3180 1550 40  0000 C CNN
-F 1 "330R" V 3107 1551 40  0000 C CNN
+F 1 "680" V 3107 1551 40  0000 C CNN
 F 2 "" V 3030 1550 30  0000 C CNN
 F 3 "" H 3100 1550 30  0000 C CNN
 	1    3100 1550
@@ -566,7 +566,7 @@ L R R?
 U 1 1 53332D1E
 P 950 3150
 F 0 "R?" V 1030 3150 40  0000 C CNN
-F 1 "330R" V 957 3151 40  0000 C CNN
+F 1 "680" V 957 3151 40  0000 C CNN
 F 2 "" V 880 3150 30  0000 C CNN
 F 3 "" H 950 3150 30  0000 C CNN
 	1    950  3150
@@ -586,7 +586,7 @@ Text Label 4200 6600 0    60   ~ 0
 PWM_AUX1_HIC
 Text Label 4200 6700 0    60   ~ 0
 PWM_LOC0
-Text Notes 4550 4050 0    60   ~ 0
+Text Notes 1250 6700 2    60   ~ 0
 Input from\nEndstops
 Text Notes 4550 3050 0    60   ~ 0
 Input from\nThermistors \n(to ADC)
@@ -1114,17 +1114,17 @@ Wire Wire Line
 Wire Wire Line
 	1700 4800 1600 4800
 Wire Wire Line
-	4200 3750 4100 3750
+	1600 6400 1700 6400
 Wire Wire Line
-	4100 3850 4200 3850
+	1700 6500 1600 6500
 Wire Wire Line
-	4200 3950 4100 3950
+	1600 6600 1700 6600
 Wire Wire Line
-	4100 4050 4200 4050
+	1700 6700 1600 6700
 Wire Wire Line
-	4100 4150 4200 4150
+	1700 6800 1600 6800
 Wire Wire Line
-	4200 4250 4100 4250
+	1600 6900 1700 6900
 Connection ~ 10550 2200
 Wire Wire Line
 	4200 2900 4100 2900
@@ -1855,4 +1855,8 @@ F7 "IN_HEATBED" I L 5000 6950 60
 F8 "IN_HIC_0" I L 5000 7050 60 
 F9 "IN_HIC_1" I L 5000 7150 60 
 $EndSheet
+Text Notes 4250 5650 0    60   ~ 0
+Additional \nPWM outs?
+Text Notes 4300 4150 0    60   ~ 0
+ADC INs\nto Connector?
 $EndSCHEMATC

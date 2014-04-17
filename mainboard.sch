@@ -572,11 +572,11 @@ F 3 "" H 950 3150 30  0000 C CNN
 	1    950  3150
 	0    1    1    0   
 $EndComp
-Text Label 4200 6900 0    60   ~ 0
-PWM_FAN1
 Text Label 4200 7000 0    60   ~ 0
-PWM_FAN2
+PWM_FAN1
 Text Label 4200 6800 0    60   ~ 0
+PWM_LOC1
+Text Label 4200 6900 0    60   ~ 0
 PWM_FAN0
 Text Label 4200 6400 0    60   ~ 0
 PWM_HEATER_HB
@@ -585,7 +585,7 @@ PWM_HEATER_EXTR
 Text Label 4200 6600 0    60   ~ 0
 PWM_AUX1_HIC
 Text Label 4200 6700 0    60   ~ 0
-PWM_AUX2
+PWM_LOC0
 Text Notes 4550 4050 0    60   ~ 0
 Input from\nEndstops
 Text Notes 4550 3050 0    60   ~ 0
@@ -1135,11 +1135,11 @@ Wire Wire Line
 Wire Wire Line
 	1650 2200 1650 2300
 Wire Wire Line
-	4200 6900 4100 6900
+	4100 6900 4650 6900
 Wire Wire Line
-	4200 6800 4100 6800
+	4100 6800 4700 6800
 Wire Wire Line
-	4200 6700 4100 6700
+	4100 6700 4750 6700
 Wire Wire Line
 	4100 6600 4800 6600
 Wire Wire Line
@@ -1657,7 +1657,7 @@ $EndComp
 Wire Wire Line
 	8750 4900 8550 4900
 Wire Wire Line
-	4200 7000 4100 7000
+	4100 7000 4600 7000
 Text Label 4200 6500 0    60   ~ 0
 PWM_AUX0_HIC
 $Comp
@@ -1702,20 +1702,6 @@ F 3 "" H 3100 1850 60  0000 C CNN
 	1    3100 1850
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 5000 6750 1350 800 
-U 534EA8E8
-F0 "heater-fan-driver" 50
-F1 "heater-fan-driver.sch" 50
-F2 "IN_HIC_0" I L 5000 6850 60 
-F3 "IN_HIC_1" I L 5000 6950 60 
-F4 "IN_HIC_2" I L 5000 7050 60 
-F5 "IN_HIC_3" I L 5000 7150 60 
-F6 "IN_LOC_4" I L 5000 7250 60 
-F7 "IN_LOC_5" I L 5000 7350 60 
-F8 "IN_LOC_6" I L 5000 7450 60 
-F9 "IN_LOC_7" I R 6350 7400 60 
-$EndSheet
 Wire Wire Line
 	4950 6300 4950 6850
 Wire Wire Line
@@ -1839,4 +1825,34 @@ F 3 "" H 8750 4050 60  0000 C CNN
 	1    8750 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4750 6700 4750 7250
+Wire Wire Line
+	4750 7250 5000 7250
+Wire Wire Line
+	4700 6800 4700 7350
+Wire Wire Line
+	4700 7350 5000 7350
+Wire Wire Line
+	4650 6900 4650 7450
+Wire Wire Line
+	4650 7450 5000 7450
+Wire Wire Line
+	4600 7000 4600 7550
+Wire Wire Line
+	4600 7550 5000 7550
+$Sheet
+S 5000 6750 1350 850 
+U 534EA8E8
+F0 "heater-fan-driver" 50
+F1 "heater-fan-driver.sch" 50
+F2 "IN_FAN_0" I L 5000 7450 60 
+F3 "IN_FAN_1" I L 5000 7550 60 
+F4 "IN_LOC_0" I L 5000 7250 60 
+F5 "IN_LOC_1" I L 5000 7350 60 
+F6 "IN_EXTR" I L 5000 6850 60 
+F7 "IN_HEATBED" I L 5000 6950 60 
+F8 "IN_HIC_0" I L 5000 7050 60 
+F9 "IN_HIC_1" I L 5000 7150 60 
+$EndSheet
 $EndSCHEMATC

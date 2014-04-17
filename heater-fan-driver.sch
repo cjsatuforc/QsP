@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
+Title "Fan and Heater drivers"
 Date ""
-Rev ""
+Rev "A"
 Comp ""
-Comment1 ""
+Comment1 "4 High-Current Channels (Heaters), 4 Low-C.-Ch. (Fans)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -754,5 +754,5 @@ Wire Wire Line
 Wire Wire Line
 	8100 4600 7950 4600
 Text Notes 5750 3450 0    60   ~ 0
-All LEDs on this sheet 0805 Green\nType Osram lg_l29k\n
+All LEDs on this sheet 0603 Green\nType Osram lg_l29k\n
 $EndSCHEMATC

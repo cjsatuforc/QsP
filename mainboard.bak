@@ -2120,4 +2120,5 @@ Wire Wire Line
 Wire Wire Line
 	5700 1800 6300 1800
 Connection ~ 5700 1600
+NoConn ~ 1700 3700
 $EndSCHEMATC

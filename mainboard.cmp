@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Sa 19 Apr 2014 23:46:25 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = So 20 Apr 2014 21:13:50 CEST
 
 BeginCmp
 TimeStamp = /534BC106;
@@ -410,259 +410,259 @@ BeginCmp
 TimeStamp = /52EAC8D5;
 Reference = K1;
 ValeurCmp = X_MIN;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8E2;
 Reference = K2;
 ValeurCmp = X_MAX;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8E8;
 Reference = K3;
 ValeurCmp = Y_MIN;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8EE;
 Reference = K4;
 ValeurCmp = Y_MAX;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8F4;
 Reference = K5;
 ValeurCmp = Z_MIN;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8FA;
 Reference = K6;
 ValeurCmp = Z_MAX;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E7F46D;
 Reference = P1;
 ValeurCmp = POWER;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC4EA;
 Reference = P2;
 ValeurCmp = PDI;
-IdModule  = ;
+IdModule  = Connect:SIL-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /53503948;
 Reference = P3;
 ValeurCmp = GPIO_B;
-IdModule  = ;
+IdModule  = Connect:VASCH5x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5335FA9A;
 Reference = P4;
 ValeurCmp = BEEPER;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /535020C1;
 Reference = P5;
 ValeurCmp = OPEN_C_OUT;
-IdModule  = ;
+IdModule  = Connect:VASCH5x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534D73F4;
 Reference = P6;
 ValeurCmp = 12V;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534FD85E;
 Reference = P7;
 ValeurCmp = 5V;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534D73E9;
 Reference = P8;
 ValeurCmp = 3.3V;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534D6826;
 Reference = P9;
 ValeurCmp = I2C;
-IdModule  = ;
+IdModule  = Connect:SIL-4;
 EndCmp
 
 BeginCmp
 TimeStamp = /534D683A;
 Reference = P10;
 ValeurCmp = USART;
-IdModule  = ;
+IdModule  = Connect:SIL-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53332165;
 Reference = P11;
 ValeurCmp = TH_HB;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5337354A;
 Reference = P12;
 ValeurCmp = TH_EX;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53373631;
 Reference = P13;
 ValeurCmp = TH_HO;
-IdModule  = ;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534FCF38;
 Reference = P14;
-ValeurCmp = CONN_14;
-IdModule  = ;
+ValeurCmp = LCD;
+IdModule  = Connect:VASCH8x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93B26;
 Reference = P15;
 ValeurCmp = STP_Y;
-IdModule  = ;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93E66;
 Reference = P16;
 ValeurCmp = STP_E0;
-IdModule  = ;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93D12;
 Reference = P17;
 ValeurCmp = STP_X;
-IdModule  = ;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93EC0;
 Reference = P18;
 ValeurCmp = STP_E1;
-IdModule  = ;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93D6C;
 Reference = P19;
 ValeurCmp = STP_Z;
-IdModule  = ;
+IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC088;
 Reference = P20;
 ValeurCmp = EXTR;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC150;
 Reference = P21;
 ValeurCmp = HIC_0;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC125;
 Reference = P22;
 ValeurCmp = HEATBED;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC16C;
 Reference = P23;
 ValeurCmp = HIC_1;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF33A;
 Reference = P24;
 ValeurCmp = FAN_0;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF345;
 Reference = P25;
 ValeurCmp = FAN_1;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF350;
 Reference = P26;
 ValeurCmp = LOC_0;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF35B;
 Reference = P27;
 ValeurCmp = LOC_1;
-IdModule  = ;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC095;
 Reference = Q1;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = IRL1404;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC156;
 Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = IRL1404;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC172;
 Reference = Q3;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = IRL1404;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EC12B;
 Reference = Q4;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = IRL1404;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
@@ -879,49 +879,49 @@ BeginCmp
 TimeStamp = /535040D9;
 Reference = RV1;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = 3dp-special:ACP-CA6XV5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5337EA04;
 Reference = RV2;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = 3dp-special:ACP-CA6XV5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5337E0EF;
 Reference = RV3;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = 3dp-special:ACP-CA6XV5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5337E930;
 Reference = RV4;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = 3dp-special:ACP-CA6XV5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53348057;
 Reference = RV5;
-ValeurCmp = POT;
-IdModule  = ;
+ValeurCmp = 20k;
+IdModule  = 3dp-special:ACP-CA6XV5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5337003F;
 Reference = U1;
 ValeurCmp = NE 4558 D SMD;
-IdModule  = ;
+IdModule  = SMD_Packages:SO8E;
 EndCmp
 
 BeginCmp
 TimeStamp = /534FF349;
 Reference = U2;
 ValeurCmp = ULN_2003_A;
-IdModule  = ;
+IdModule  = SMD_Packages:SO16E;
 EndCmp
 
 BeginCmp
@@ -977,56 +977,56 @@ BeginCmp
 TimeStamp = /534EA8E8/534EF1BD;
 Reference = U10;
 ValeurCmp = ULN_2003_A;
-IdModule  = ;
+IdModule  = SMD_Packages:SO14E;
 EndCmp
 
 BeginCmp
 TimeStamp = /535154CF;
 Reference = VR1;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /535154B3;
 Reference = VR2;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5351660F;
 Reference = VR3;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53516624;
 Reference = VR4;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5351662F;
 Reference = VR5;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /535160AF;
 Reference = VR6;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /535160BA;
 Reference = VR7;
 ValeurCmp = 14V;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 EndListe

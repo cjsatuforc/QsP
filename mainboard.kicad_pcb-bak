@@ -3,7 +3,7 @@
   (general
     (links 360)
     (no_connects 360)
-    (area 17.78 19.05 186.53416 128.252244)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -633,7 +633,7 @@
   )
 
   (module Capacitors_SMD:c_elec_10x10 (layer F.Cu) (tedit 5354178F) (tstamp 5354206C)
-    (at 63.5 97.79)
+    (at 62.50475 97.945336)
     (descr "SMT capacitor, aluminium electrolytic, 10x10")
     (path /52EABF59)
     (fp_text reference C5 (at 0 -5.842) (layer F.SilkS)

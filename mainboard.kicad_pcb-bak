@@ -1038,7 +1038,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5354E084) (tstamp 5354E458)
-    (at 142 177.5 90)
+    (at 268.5 41 90)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5354DCCC)
@@ -1078,7 +1078,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5354E084) (tstamp 5354E45E)
-    (at 137.5 177.5 90)
+    (at 264 41 90)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5354DC9A)
@@ -1118,7 +1118,7 @@
   )
 
   (module LEDs:LED-0603 (layer F.Cu) (tedit 5354E084) (tstamp 5354E464)
-    (at 132 177.5 90)
+    (at 258.5 41 90)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /53332C36)
@@ -2552,7 +2552,7 @@
   )
 
   (module Connect:PINHEAD1-6 (layer F.Cu) (tedit 5354E084) (tstamp 5354E5CA)
-    (at 136.5 185.5)
+    (at 263 49)
     (path /52E7F46D)
     (attr virtual)
     (fp_text reference P1 (at 0 -3.75) (layer F.SilkS)
@@ -3570,7 +3570,7 @@
   )
 
   (module SMD_Packages:SM0805 (layer F.Cu) (tedit 5354E084) (tstamp 5354ECE4)
-    (at 142 173 90)
+    (at 268.5 36.5 90)
     (path /5354DCD8)
     (attr smd)
     (fp_text reference R3 (at 0 -0.3175 90) (layer F.SilkS)
@@ -3598,7 +3598,7 @@
   )
 
   (module SMD_Packages:SM0805 (layer F.Cu) (tedit 5354E084) (tstamp 5354E6C9)
-    (at 137.5 173 90)
+    (at 264 36.5 90)
     (path /5354DCA6)
     (attr smd)
     (fp_text reference R4 (at 0 -0.3175 90) (layer F.SilkS)
@@ -3626,7 +3626,7 @@
   )
 
   (module SMD_Packages:SM0805 (layer F.Cu) (tedit 5354E084) (tstamp 5354E6CF)
-    (at 132 173 90)
+    (at 258.5 36.5 90)
     (path /53332C60)
     (attr smd)
     (fp_text reference R5 (at 0 -0.3175 90) (layer F.SilkS)
@@ -4638,7 +4638,7 @@
   )
 
   (module 3dp-special:a4988-bo (layer F.Cu) (tedit 5354E08F) (tstamp 5354E7F1)
-    (at 60 193.5)
+    (at 55.5 170.5)
     (descr a4988-breakout)
     (tags a4988)
     (path /52E93A8E/52E93AE4)
@@ -4689,7 +4689,7 @@
   )
 
   (module 3dp-special:a4988-bo (layer F.Cu) (tedit 5354E08F) (tstamp 5354E80B)
-    (at 33.5 211)
+    (at 29 188)
     (descr a4988-breakout)
     (tags a4988)
     (path /52E93A8E/52E93E24)
@@ -4740,7 +4740,7 @@
   )
 
   (module 3dp-special:a4988-bo (layer F.Cu) (tedit 5354E08F) (tstamp 5354E825)
-    (at 57.5 174.5)
+    (at 53 151.5)
     (descr a4988-breakout)
     (tags a4988)
     (path /52E93A8E/52E93CD0)
@@ -4791,7 +4791,7 @@
   )
 
   (module 3dp-special:a4988-bo (layer F.Cu) (tedit 5354E08F) (tstamp 5354E83F)
-    (at 33 193)
+    (at 28.5 170)
     (descr a4988-breakout)
     (tags a4988)
     (path /52E93A8E/52E93E7E)
@@ -4842,7 +4842,7 @@
   )
 
   (module 3dp-special:a4988-bo (layer F.Cu) (tedit 5354E08F) (tstamp 5354E859)
-    (at 33.5 173.5)
+    (at 29 150.5)
     (descr a4988-breakout)
     (tags a4988)
     (path /52E93A8E/52E93D2A)

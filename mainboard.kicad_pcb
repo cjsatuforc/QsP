@@ -3,7 +3,7 @@
   (general
     (links 367)
     (no_connects 367)
-    (area 0 0 0 0)
+    (area 12.7 -35.71195 351.851001 196.031501)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -57,7 +57,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (grid_origin 10 10)
+    (grid_origin 78 28)
     (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 3178497)
@@ -2099,7 +2099,7 @@
   )
 
   (module Connect:SIL-2 (layer F.Cu) (tedit 5354E084) (tstamp 5354E542)
-    (at 79.491828 45.382018)
+    (at 80 39.5)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /52E93A8E/52E93B14)
@@ -2120,7 +2120,7 @@
   )
 
   (module Connect:SIL-2 (layer F.Cu) (tedit 5354E084) (tstamp 5354E548)
-    (at 79.491828 39.252018)
+    (at 79.5 44.5)
     (descr "Connecteurs 2 pins")
     (tags "CONN DEV")
     (path /52E93A8E/52E93E54)

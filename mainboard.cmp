@@ -1,24 +1,24 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Mo 21 Apr 2014 10:21:15 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Mo 21 Apr 2014 11:17:17 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
 Reference = C1;
 ValeurCmp = 470uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+IdModule  = Capacitors_SMD:c_elec_10x10;
 EndCmp
 
 BeginCmp
 TimeStamp = /534BC106;
 Reference = C2;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:c_elec_10x10;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EABF59;
 Reference = C3;
 ValeurCmp = 470uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+IdModule  = Capacitors_SMD:c_elec_10x10;
 EndCmp
 
 BeginCmp
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /534BBD85;
 Reference = C5;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:c_elec_10x10;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /5352EFFB;
 Reference = C17;
 ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /52E93A8E/52E93D3C;
 Reference = C22;
 ValeurCmp = 100uF;
-IdModule  = SMD_Packages:SM0603_Capa;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
 EndCmp
 
 BeginCmp
@@ -221,56 +221,56 @@ BeginCmp
 TimeStamp = /534EA8E8/53500700;
 Reference = D10;
 ValeurCmp = EXTR;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/535008DF;
 Reference = D11;
 ValeurCmp = HIC0;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/535114A1;
 Reference = D12;
 ValeurCmp = DIODE;
-IdModule  = LEDs:LED-0603;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/535115D5;
 Reference = D13;
 ValeurCmp = DIODE;
-IdModule  = LEDs:LED-0603;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/535008F7;
 Reference = D14;
 ValeurCmp = HIC1;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/535007F1;
 Reference = D15;
 ValeurCmp = HB;
-IdModule  = Diodes_SMD:Diode-SMA_Handsoldering;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/53511B29;
 Reference = D16;
 ValeurCmp = DIODE;
-IdModule  = LEDs:LED-0603;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/53511841;
 Reference = D17;
 ValeurCmp = DIODE;
-IdModule  = LEDs:LED-0603;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -1005,7 +1005,7 @@ BeginCmp
 TimeStamp = /534EA8E8/534EF1BD;
 Reference = U10;
 ValeurCmp = ULN_2003_A;
-IdModule  = SMD_Packages:SO14E;
+IdModule  = SMD_Packages:SO16E;
 EndCmp
 
 BeginCmp

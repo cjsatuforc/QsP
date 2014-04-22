@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name 3dp-special)(type KiCad)(uri ${KIPRJMOD}/3dp-special-footprints.pretty)(options "")(descr ""))
+  (lib (name dip-s)(type Legacy)(uri ${KIPRJMOD}/dips-mod/dips-s.mod)(options "")(descr ""))
 )

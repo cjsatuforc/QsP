@@ -1,4 +1,4 @@
-update=Mo 21 Apr 2014 10:40:45 CEST
+update=Di 22 Apr 2014 20:07:12 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -88,3 +88,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=3dprinter-special-parts
+LibName32=dips-mod/dips-s

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Mo 21 Apr 2014 11:17:17 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Di 22 Apr 2014 20:09:53 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -316,111 +316,6 @@ IdModule  = Connect:USB_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E93A8E/52E93B14;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93E54;
-Reference = JP2;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93B02;
-Reference = JP3;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93B08;
-Reference = JP4;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93E42;
-Reference = JP5;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93E48;
-Reference = JP6;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93D00;
-Reference = JP7;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93EAE;
-Reference = JP8;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93CEE;
-Reference = JP9;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93CF4;
-Reference = JP10;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93E9C;
-Reference = JP11;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93EA2;
-Reference = JP12;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93D5A;
-Reference = JP13;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93D48;
-Reference = JP14;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E93A8E/52E93D4E;
-Reference = JP15;
-ValeurCmp = JUMPER;
-IdModule  = Connect:SIL-2;
-EndCmp
-
-BeginCmp
 TimeStamp = /52EAC8D5;
 Reference = K1;
 ValeurCmp = X_MIN;
@@ -473,7 +368,7 @@ BeginCmp
 TimeStamp = /52EAC4EA;
 Reference = P2;
 ValeurCmp = PDI;
-IdModule  = Connect:SIL-4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
@@ -493,7 +388,7 @@ EndCmp
 BeginCmp
 TimeStamp = /535020C1;
 Reference = P5;
-ValeurCmp = OPEN_C_OUT;
+ValeurCmp = OPEN_COLL_D;
 IdModule  = Connect:VASCH5x2;
 EndCmp
 
@@ -522,7 +417,7 @@ BeginCmp
 TimeStamp = /534D6826;
 Reference = P9;
 ValeurCmp = I2C;
-IdModule  = Connect:SIL-4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
@@ -564,35 +459,35 @@ BeginCmp
 TimeStamp = /52E93A8E/52E93B26;
 Reference = P15;
 ValeurCmp = STP_Y;
-IdModule  = Connect:bornier4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93E66;
 Reference = P16;
 ValeurCmp = STP_E0;
-IdModule  = Connect:bornier4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93D12;
 Reference = P17;
 ValeurCmp = STP_X;
-IdModule  = Connect:bornier4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93EC0;
 Reference = P18;
 ValeurCmp = STP_E1;
-IdModule  = Connect:bornier4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E93A8E/52E93D6C;
 Reference = P19;
 ValeurCmp = STP_Z;
-IdModule  = Connect:bornier4;
+IdModule  = 3dp-special:PSS4;
 EndCmp
 
 BeginCmp
@@ -627,28 +522,35 @@ BeginCmp
 TimeStamp = /534EA8E8/534EF33A;
 Reference = P24;
 ValeurCmp = FAN_0;
-IdModule  = Connect:bornier2;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF345;
 Reference = P25;
 ValeurCmp = FAN_1;
-IdModule  = Connect:bornier2;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF350;
 Reference = P26;
 ValeurCmp = LOC_0;
-IdModule  = Connect:bornier2;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF35B;
 Reference = P27;
 ValeurCmp = LOC_1;
-IdModule  = Connect:bornier2;
+IdModule  = Connect:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5355479F;
+Reference = P28;
+ValeurCmp = INTERFACE;
+IdModule  = Connect:VASCH5x2;
 EndCmp
 
 BeginCmp
@@ -936,6 +838,41 @@ TimeStamp = /53348057;
 Reference = RV5;
 ValeurCmp = 20k;
 IdModule  = 3dp-special:ACP-CA6XV5;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E93A8E/5356BA91;
+Reference = SW1;
+ValeurCmp = Y;
+IdModule  = dip-s:DIPS-DS03;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E93A8E/5356BAA3;
+Reference = SW2;
+ValeurCmp = E0;
+IdModule  = dip-s:DIPS-DS03;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E93A8E/5356BA6D;
+Reference = SW3;
+ValeurCmp = X;
+IdModule  = dip-s:DIPS-DS03;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E93A8E/5356B5F7;
+Reference = SW4;
+ValeurCmp = E1;
+IdModule  = dip-s:DIPS-DS03;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E93A8E/5356BA7F;
+Reference = SW5;
+ValeurCmp = Z;
+IdModule  = dip-s:DIPS-DS03;
 EndCmp
 
 BeginCmp

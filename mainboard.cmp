@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Di 22 Apr 2014 20:09:53 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Di 22 Apr 2014 22:14:34 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -319,42 +319,42 @@ BeginCmp
 TimeStamp = /52EAC8D5;
 Reference = K1;
 ValeurCmp = X_MIN;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = 3dp-special:PSS3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8E2;
 Reference = K2;
 ValeurCmp = X_MAX;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = 3dp-special:PSS3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8E8;
 Reference = K3;
 ValeurCmp = Y_MIN;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = 3dp-special:PSS3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8EE;
 Reference = K4;
 ValeurCmp = Y_MAX;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = 3dp-special:PSS3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8F4;
 Reference = K5;
 ValeurCmp = Z_MIN;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = 3dp-special:PSS3;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EAC8FA;
 Reference = K6;
 ValeurCmp = Z_MAX;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = 3dp-special:PSS3;
 EndCmp
 
 BeginCmp
@@ -522,28 +522,28 @@ BeginCmp
 TimeStamp = /534EA8E8/534EF33A;
 Reference = P24;
 ValeurCmp = FAN_0;
-IdModule  = Connect:SIL-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF345;
 Reference = P25;
 ValeurCmp = FAN_1;
-IdModule  = Connect:SIL-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF350;
 Reference = P26;
 ValeurCmp = LOC_0;
-IdModule  = Connect:SIL-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/534EF35B;
 Reference = P27;
 ValeurCmp = LOC_1;
-IdModule  = Connect:SIL-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp

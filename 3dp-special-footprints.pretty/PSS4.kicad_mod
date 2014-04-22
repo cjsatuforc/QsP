@@ -1,10 +1,10 @@
 (module PSS4 (layer F.Cu)
   (descr "Connecteur 4 pibs")
   (tags CONN)
-  (fp_text reference PSS4 (at 1.905 -4) (layer F.SilkS)
-    (effects (font (size 1.73482 1.08712) (thickness 0.27178)))
+  (fp_text reference PSS4 (at 1.905 -3.8) (layer F.SilkS)
+    (effects (font (size 1.23482 1.08712) (thickness 0.27178)))
   )
-  (fp_text value Val** (at 6.985 -4) (layer F.SilkS) hide
+  (fp_text value Val** (at 2 4) (layer F.SilkS)
     (effects (font (size 1.524 1.016) (thickness 0.254)))
   )
   (fp_line (start 7.62 -1.905) (end 7.62 -2.9) (layer F.SilkS) (width 0.3))

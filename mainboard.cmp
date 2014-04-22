@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Di 22 Apr 2014 22:14:34 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Di 22 Apr 2014 22:49:26 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -235,14 +235,14 @@ BeginCmp
 TimeStamp = /534EA8E8/535114A1;
 Reference = D12;
 ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
+IdModule  = smd-diode:SOD323;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/535115D5;
 Reference = D13;
 ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
+IdModule  = smd-diode:SOD323;
 EndCmp
 
 BeginCmp
@@ -263,14 +263,14 @@ BeginCmp
 TimeStamp = /534EA8E8/53511B29;
 Reference = D16;
 ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
+IdModule  = smd-diode:SOD323;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EA8E8/53511841;
 Reference = D17;
 ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
+IdModule  = smd-diode:SOD323;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-19 BZR 4808)-product   date = Di 22 Apr 2014 22:49:26 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-22 BZR 4817)-product   date = Do 24 Apr 2014 13:00:30 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -152,6 +152,20 @@ TimeStamp = /52E93A8E/52E93D3C;
 Reference = C22;
 ValeurCmp = 100uF;
 IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EA8E8/5358F46F;
+Reference = C23;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EA8E8/5358F142;
+Reference = C24;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp

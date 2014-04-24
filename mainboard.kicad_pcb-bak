@@ -2781,7 +2781,7 @@
   )
 
   (module SMD_Packages:SM0805 (layer F.Cu) (tedit 5354E084) (tstamp 5354E6ED)
-    (at 85.331531 117.225596)
+    (at 71.5 83.5)
     (path /5336FBE0)
     (attr smd)
     (fp_text reference R10 (at 0 -0.3175) (layer F.SilkS)

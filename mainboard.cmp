@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-22 BZR 4817)-product   date = Do 24 Apr 2014 13:00:30 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-25 BZR 4828)-product   date = Fr 25 Apr 2014 22:07:43 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /52E7F46D;
 Reference = P1;
 ValeurCmp = POWER;
-IdModule  = Connect:PINHEAD1-6;
+IdModule  = Connect:bornier6;
 EndCmp
 
 BeginCmp
@@ -445,21 +445,21 @@ BeginCmp
 TimeStamp = /53332165;
 Reference = P11;
 ValeurCmp = TH_HB;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5337354A;
 Reference = P12;
 ValeurCmp = TH_EX;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53373631;
 Reference = P13;
 ValeurCmp = TH_HO;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp

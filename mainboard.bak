@@ -376,35 +376,35 @@ Text Label 8300 3500 0    60   ~ 0
 Z_MAX
 Text Notes 8000 750  0    60   ~ 0
 END STOPS
-Text GLabel 1600 5850 0    60   Input ~ 0
+Text GLabel 1600 4900 0    60   Input ~ 0
 E0-STEP
-Text GLabel 1600 5200 0    60   Input ~ 0
-E0-DIR
-Text GLabel 1600 4700 0    60   Input ~ 0
-E0-EN
-Text GLabel 1600 5950 0    60   Input ~ 0
-E1-STEP
-Text GLabel 1600 5300 0    60   Input ~ 0
-E1-DIR
 Text GLabel 1600 4800 0    60   Input ~ 0
+E0-DIR
+Text GLabel 1600 5000 0    60   Input ~ 0
+E0-EN
+Text GLabel 1600 5200 0    60   Input ~ 0
+E1-STEP
+Text GLabel 1600 5100 0    60   Input ~ 0
+E1-DIR
+Text GLabel 1600 5300 0    60   Input ~ 0
 E1-EN
 Text GLabel 1600 6250 0    60   Input ~ 0
 Z-STEP
-Text GLabel 1600 6150 0    60   Input ~ 0
+Text GLabel 1600 5950 0    60   Input ~ 0
 Y-STEP
-Text GLabel 1600 6050 0    60   Input ~ 0
+Text GLabel 1600 5650 0    60   Input ~ 0
 X-STEP
-Text GLabel 1550 5550 0    60   Input ~ 0
+Text GLabel 1600 5550 0    60   Input ~ 0
 X-DIR
-Text GLabel 1550 5650 0    60   Input ~ 0
+Text GLabel 1600 5850 0    60   Input ~ 0
 Y-DIR
-Text GLabel 1550 5750 0    60   Input ~ 0
+Text GLabel 1600 6150 0    60   Input ~ 0
 Z-DIR
-Text GLabel 1550 4900 0    60   Input ~ 0
+Text GLabel 1600 5750 0    60   Input ~ 0
 X-EN
-Text GLabel 1550 5000 0    60   Input ~ 0
+Text GLabel 1600 6050 0    60   Input ~ 0
 Y-EN
-Text GLabel 1550 5100 0    60   Input ~ 0
+Text GLabel 1600 4700 0    60   Input ~ 0
 Z-EN
 $Comp
 L +3,3V #PWR017
@@ -594,7 +594,7 @@ Text Label 4200 3600 0    60   ~ 0
 INTERF5
 Text Notes 4600 3450 0    60   ~ 0
 Input from\nJoystick / \nButtons
-Text Label 1550 5450 2    60   ~ 0
+Text Label 1600 5450 2    60   ~ 0
 BEEPER
 Text Label 1600 4250 2    60   ~ 0
 LCD_D4
@@ -1678,32 +1678,6 @@ Wire Wire Line
 	8600 1100 8300 1100
 Connection ~ 8600 1600
 Wire Wire Line
-	1700 5300 1600 5300
-Wire Wire Line
-	1700 5200 1600 5200
-Wire Wire Line
-	1600 6050 1700 6050
-Wire Wire Line
-	1600 5950 1700 5950
-Wire Wire Line
-	1600 5850 1700 5850
-Wire Wire Line
-	1600 6150 1700 6150
-Wire Wire Line
-	1600 6250 1700 6250
-Wire Wire Line
-	1700 5750 1550 5750
-Wire Wire Line
-	1700 5650 1550 5650
-Wire Wire Line
-	1700 5550 1550 5550
-Wire Wire Line
-	1550 5100 1700 5100
-Wire Wire Line
-	1550 5000 1700 5000
-Wire Wire Line
-	1550 4900 1700 4900
-Wire Wire Line
 	1650 2150 1650 2050
 Wire Wire Line
 	1550 2350 1550 2900
@@ -1711,10 +1685,6 @@ Wire Wire Line
 	1200 2900 1700 2900
 Wire Wire Line
 	4100 4700 5150 4700
-Wire Wire Line
-	1700 4700 1600 4700
-Wire Wire Line
-	1700 4800 1600 4800
 Wire Wire Line
 	1600 6400 1700 6400
 Wire Wire Line
@@ -1750,8 +1720,6 @@ Wire Wire Line
 	4100 6400 5150 6400
 Wire Wire Line
 	4100 6300 5150 6300
-Wire Wire Line
-	1550 5400 1700 5400
 Wire Wire Line
 	3850 2600 3850 2450
 Wire Wire Line
@@ -1909,8 +1877,6 @@ Connection ~ 2250 2200
 Connection ~ 2050 2200
 Connection ~ 1650 2250
 Connection ~ 1850 2200
-Wire Wire Line
-	1550 5450 1550 5400
 Wire Wire Line
 	8700 6000 8700 6050
 Wire Wire Line
@@ -2538,4 +2504,38 @@ $EndComp
 Wire Wire Line
 	1250 1600 1250 1550
 Connection ~ 1250 1550
+Wire Wire Line
+	1600 4700 1700 4700
+Wire Wire Line
+	1700 4800 1600 4800
+Wire Wire Line
+	1600 4900 1700 4900
+Wire Wire Line
+	1700 5000 1600 5000
+Wire Wire Line
+	1600 5100 1700 5100
+Wire Wire Line
+	1700 5200 1600 5200
+Wire Wire Line
+	1600 5300 1700 5300
+Wire Wire Line
+	1700 5400 1600 5400
+Wire Wire Line
+	1600 5400 1600 5450
+Wire Wire Line
+	1700 5550 1600 5550
+Wire Wire Line
+	1600 5650 1700 5650
+Wire Wire Line
+	1700 5750 1600 5750
+Wire Wire Line
+	1600 5850 1700 5850
+Wire Wire Line
+	1700 5950 1600 5950
+Wire Wire Line
+	1600 6050 1700 6050
+Wire Wire Line
+	1700 6150 1600 6150
+Wire Wire Line
+	1600 6250 1700 6250
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-25 BZR 4828)-product   date = Fr 25 Apr 2014 22:07:43 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-04-25 BZR 4828)-product   date = Fr 02 Mai 2014 20:25:10 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -164,6 +164,13 @@ EndCmp
 BeginCmp
 TimeStamp = /534EA8E8/5358F142;
 Reference = C24;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /5363EB52;
+Reference = C25;
 ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
@@ -396,7 +403,7 @@ BeginCmp
 TimeStamp = /5335FA9A;
 Reference = P4;
 ValeurCmp = BEEPER;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = 3dp-special:PSS2;
 EndCmp
 
 BeginCmp

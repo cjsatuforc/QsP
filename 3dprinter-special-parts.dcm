@@ -4,4 +4,10 @@ $CMP MCP14E10
 D MCP14E10 Dual High-Speed Power MOSFET Driver with enable
 $ENDCMP
 #
+$CMP S25FL064P
+D S25FL064P, 64Mb Serial Flash, SOP-16
+K I2C Serial EEPROM Flash Nonvolatile Memory
+F https://www.spansion.com/Support/Datasheets/S25FL064P_00.pdf
+$ENDCMP
+#
 #End Doc Library

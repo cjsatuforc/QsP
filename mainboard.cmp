@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-25 BZR 4828)-product   date = Fr 02 Mai 2014 20:25:10 CEST
+Cmp-Mod V01 Created by Cvpcb (2014-05-06 BZR 4854)-product   date = So 11 Mai 2014 11:02:19 CEST
 
 BeginCmp
 TimeStamp = /52EABF4C;
@@ -176,6 +176,41 @@ IdModule  = SMD_Packages:SM0603_Capa;
 EndCmp
 
 BeginCmp
+TimeStamp = /536F125A;
+Reference = C26;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EA8E8/536FE052;
+Reference = C27;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EA8E8/536FF55C;
+Reference = C28;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EA8E8/536FF5A1;
+Reference = C29;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EA8E8/536FF5E9;
+Reference = C30;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0603_Capa;
+EndCmp
+
+BeginCmp
 TimeStamp = /53332D0C;
 Reference = D1;
 ValeurCmp = BUSY;
@@ -327,6 +362,13 @@ TimeStamp = /534CEBD4;
 Reference = IC1;
 ValeurCmp = ATXMEGA128A1U-A;
 IdModule  = SMD_Packages:TQFP_100;
+EndCmp
+
+BeginCmp
+TimeStamp = /536E7FD2;
+Reference = IC2;
+ValeurCmp = S25FL064P;
+IdModule  = 3dp-special:SO16-Wide;
 EndCmp
 
 BeginCmp
@@ -827,6 +869,20 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /536F8886;
+Reference = R33;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536F8947;
+Reference = R34;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /535040D9;
 Reference = RV1;
 ValeurCmp = 100k;
@@ -976,13 +1032,6 @@ EndCmp
 BeginCmp
 TimeStamp = /535154B3;
 Reference = VR2;
-ValeurCmp = 14V;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5351660F;
-Reference = VR3;
 ValeurCmp = 14V;
 IdModule  = SMD_Packages:SM0805;
 EndCmp

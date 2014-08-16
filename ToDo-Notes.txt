@@ -1,5 +1,36 @@
 --- TO DO ---
+
+Improvements for REV B:
+- Integrate Buzzer onto PCB
+- Make more room for mounting hole (esp. left bottom)
+- Indicate polarity of secondary power pins (3V3, 5V, 12V)
+- Add 24-Pin MOLEX Connector (ATX power supply)
+- Add polyfuses
+- Change UART connector --> reverse polarity protection
+- Maybe: Move Flash closer to uC
+- Maybe: Get rid of need for secondary power pins (--> better power distribution)
  
+
+--- NOTES ---
+
+- A/D-Converter at 10 SPS: Source Impedance should be less than 1e9 Ohm
+- PortD PD6 and PD7 are USB D+ and D- lines.
+- Include SD Card Reader as internal storage
+- Heatbed NTC is Type EPCOS 100K Thermistor (B57560G1104F)
+
+
+###########################################
+--- Old ---
+- 3x Fan Controller with 1 LED each:
+	-> 1x Extruder 
+	-> 1x Hotend 
+	-> 1x Filament
+ 
+- 3x Thermistor-Input:
+	-> 1x Heatbed 
+	-> 1x Extruder 
+	-> 1x Housing
+	
 - Heatbed Controller
 	-> 2 channels: Extruder, Heatbed
 	-> High Current (25A) MOSFETs 
@@ -24,23 +55,3 @@
 - Fans
 - Connectors
 - Transistor BCV 27 SMD
-
---- NOTES ---
-
-- A/D-Converter at 10 SPS: Source Impedance should be less than 1e9 Ohm
-- PortD PD6 and PD7 are USB D+ and D- lines.
-- Include SD Card Reader as internal storage
-- Heatbed NTC is Type EPCOS 100K Thermistor (B57560G1104F)
-
-
-###########################################
---- Old ---
-- 3x Fan Controller with 1 LED each:
-	-> 1x Extruder 
-	-> 1x Hotend 
-	-> 1x Filament
- 
-- 3x Thermistor-Input:
-	-> 1x Heatbed 
-	-> 1x Extruder 
-	-> 1x Housing
